@@ -1,0 +1,64 @@
+
+<footer class="site-footer">
+    <div class="wrapper">
+      <div class="footer-col-wrapper">
+        <div class="footer-col footer-col-1">
+          <ul class="contact-list">
+            <li>
+              {% if site.author %}
+                {{ site.author | escape }}
+              {% else %}
+                {{ site.title | escape }}
+              {% endif %}
+              </li>
+              {% if site.email %}
+              <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+              {% endif %}
+              <li><a href="tel:004915140511198">+49 (0)151 405 111 98</a></li>
+          </ul>
+        </div>
+  
+        <div class="footer-col footer-col-2">
+          <ul class="social-media-list">
+            {% if site.github_username %}
+            <li>
+              {% include icon-github.html username=site.github_username %}
+            </li>
+            {% endif %}
+  
+            {% if site.twitter_username %}
+            <li>
+              {% include icon-twitter.html username=site.twitter_username %}
+            </li>
+            {% endif %}
+          </ul>
+        </div>
+  
+        <div class="footer-col footer-col-3">
+          <p>{{ site.description | escape }}</p>
+        </div>
+      </div>
+  
+    </div>
+
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/react/16.13.1/umd/react.production.min.js"
+        integrity="sha512-SUJujhtUWZUlwsABaZNnTFRlvCu7XGBZBL1VF33qRvvgNk3pBS9E353kcag4JAv05/nsB9sanSXFbdHAUW9+lg=="
+        crossorigin="anonymous"
+    ></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.13.1/umd/react-dom.production.min.js"
+        integrity="sha512-SYsXmAblZhruCNUVmTp5/v2a1Fnoia06iJh3+L9B9wUaqpRVjcNBQsqAglQG9b5+IaVCfLDH5+vW923JL5epZA=="
+        crossorigin="anonymous"
+    ></script>
+
+  
+    <div class="wrapper">
+      <p>
+        <small>
+          <a href="/impressum">Impressum</a> &bull; <a href="/datenschutz">Datenschutz</a>
+        </small>
+      </p>
+    </div>
+  </footer>
+  
