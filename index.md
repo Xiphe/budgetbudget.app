@@ -3,11 +3,10 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title:
+hideNav: true
+title: Seamless Monthly Budgeting alongside MoneyMoney
 ---
 
-## Seamless Monthly Budgeting alongside [MoneyMoney](https://moneymoney-app.com/)
-
 <div class="center">
-    <a class="cta" href="/download/alpha" target="_blank">⬇️ Download Latest Alpha</a>
+    <a class="cta" href="/download/alpha">⬇️ Download Latest Alpha</a>
 </div>
