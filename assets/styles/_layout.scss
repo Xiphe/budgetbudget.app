@@ -1,0 +1,15 @@
+.site-title {
+  &:before {
+    content: "";
+    width: 2.5rem;
+    background-image: url("/assets/logo.png");
+    height: 2.5rem;
+    display: inline-block;
+    background-size: contain;
+    background-position: 0px 0.25rem;
+    background-repeat: no-repeat;
+    margin-right: 0.5rem;
+    margin-bottom: -0.25rem;
+    margin-top: 0.1rem;
+  }
+}
