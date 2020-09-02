@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# Download BudgetBudget
+<h1 align="center">Download BudgetBudget for Mac</h1>
 
 <div id="downloadRoot"><p>Looking for latest versions...</p></div>
-<script src="/assets/download.js"></script>
+<script src="/download/app.js" type="module"></script>
