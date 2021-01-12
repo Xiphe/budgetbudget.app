@@ -5,5 +5,7 @@ title: Seamless Monthly Budgeting alongside MoneyMoney
 ---
 
 <div class="center">
-    <a class="cta" href="/download/beta">⬇️ Download Latest Beta</a>
+    <h3>Get the latest BudgetBudget beta</h3>
+    <a class="cta" href="/download?channel=beta&arch=x64">⬇️ Download for Intel Macs</a>
+    <a class="cta" href="/download?channel=beta&arch=arm64">⬇️ Download for ARM/M1 Macs</a>
 </div>
