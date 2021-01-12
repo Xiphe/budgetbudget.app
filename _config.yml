@@ -21,8 +21,7 @@
 title: BudgetBudget
 email: budgetbudget@xiphe.net
 description: >- # this means to ignore newlines until "baseurl:"
-  gain confidence in financial decisions 
-  by planning monthly budgets for MoneyMoney transactions
+  🧮 make financial decisions with confidence
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: budgetbudgetapp
